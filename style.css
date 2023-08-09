@@ -1,0 +1,123 @@
+html{
+    width: 100;
+    height: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.citi-title{
+color: var(#1B1D1F);
+font-size: 44px;
+font-weight: 600;
+line-height: 48px;
+margin-bottom: 36px;
+margin-top: 0;
+
+}
+
+.citi-dcr{
+color: var( #1B1D1F);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.citi-page{
+    background: url(background.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed ;
+}
+
+.wrapper{
+    width: 1170px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.citi-text{
+    border-radius: 40px;
+    background: #FFF;
+    padding: 60px;
+    box-sizing: border-box;
+    width: 573px;
+    
+}
+
+.citi-gallery{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    background-color: aliceblue;
+    
+}
+
+.helper{
+    font-size: 20px;
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.citi-gallery-title{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 80px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image1{
+    width: 275px;
+    height: 160px;
+    border-radius: 48px;
+    margin-right: 25px;
+    margin-bottom: 23px;
+}
+
+.gallary-buttom{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* .gallery{
+    display: flex;
+    width: 1360px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px; 
+    
+} */
+
+
+/* .gallery1{
+    width: 275px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 48px;
+}
+.gallery2{
+    width: 275px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 48px;
+} */
