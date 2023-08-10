@@ -2,7 +2,7 @@
   Splide slider
   https://ja.splidejs.com/guides/getting-started/
 */
-const modalButtons = document.querySelectorAll('gallary-buttom');
+const modalButtons = document.querySelectorAll('.gallary-buttom');
 modalButtons.forEach(modalButton => {
   modalButton.addEventListener('click', () => {
     sliderElm.dataset.showIndex = modalButton.dataset.index;
